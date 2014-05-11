@@ -1,5 +1,3 @@
-/* marlin-rodbot-ramps */
-
 /* -*- c++ -*- */
 
 /*
