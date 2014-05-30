@@ -441,7 +441,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // default settings
 
 #define PORTABEE_EXTRUDER_STEPS    (2056)
-#define WADE_EXTRUDER_STEPS        (1630)
+#define WADE_EXTRUDER_STEPS        (1550)
 #define CALIBRATED_X_STEPS         (158.19)  // 39.45
 #define CALIBRATED_Y_STEPS         (160.36)  // 39.89
 #define CALIBRATED_Z_STEPS         (6456.48)  // 1600
