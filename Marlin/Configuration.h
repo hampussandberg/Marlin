@@ -361,8 +361,8 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
     // set the rectangle in which to probe
     #define LEFT_PROBE_BED_POSITION 15
-    #define RIGHT_PROBE_BED_POSITION 170
-    #define BACK_PROBE_BED_POSITION 180
+    #define RIGHT_PROBE_BED_POSITION 100
+    #define BACK_PROBE_BED_POSITION 100
     #define FRONT_PROBE_BED_POSITION 20
 
      // set the number of grid points per dimension
@@ -443,7 +443,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // default settings
 
 #define PORTABEE_EXTRUDER_STEPS    (2056)
-#define WADE_EXTRUDER_STEPS        (1400)
+#define WADE_EXTRUDER_STEPS        (1410)
 #define CALIBRATED_X_STEPS         (158.19)  // 39.45
 #define CALIBRATED_Y_STEPS         (160.36)  // 39.89
 #define CALIBRATED_Z_STEPS         (6456.48)  // 1600
@@ -718,7 +718,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // leaving it undefined or defining as 0 will disable the servo subsystem
 // If unsure, leave commented / disabled
 //
-//#define NUM_SERVOS 3 // Servo index starts with 0 for M280 command
+//#define NUM_SERVOS 1 // Servo index starts with 0 for M280 command
 
 // Servo Endstops
 //
@@ -726,7 +726,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // Use M206 command to correct for switch height offset to actual nozzle height. Store that setting with M500.
 //
 //#define SERVO_ENDSTOPS {-1, -1, 0} // Servo index for X, Y, Z. Disable with -1
-//#define SERVO_ENDSTOP_ANGLES {0,0, 0,0, 70,0} // X,Y,Z Axis Extend and Retract angles
+//#define SERVO_ENDSTOP_ANGLES {0,0, 0,0, 30,130} // X,Y,Z Axis Extend and Retract angles
 
 #include "Configuration_adv.h"
 #include "thermistortables.h"
